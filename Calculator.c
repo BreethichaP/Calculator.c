@@ -28,7 +28,7 @@ int main (void) {
     switch(operand)
     {
         case '*':
-            if (fracPartA == 0.0 && fracPartB == 0.0) { // checkinh if the fraction part is 0 if it is then the numnber is an integer.
+            if (fracPartA == 0.0 && fracPartB == 0.0) { // checking if the fraction part is 0 if it is then the numnber is an integer.
             printf("%d * %d = %d\n", (int)intPartA, (int)intPartB, (int)(intPartA * intPartB));
             }
             else {
